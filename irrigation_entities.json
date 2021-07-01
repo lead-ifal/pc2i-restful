@@ -1,0 +1,69 @@
+{
+    "planting_area": {
+      "0": {
+      "size": 0,
+      "soil_characteristics": 0,
+      "location": "location",
+      "irrigation_zones": "zone" },
+
+      "1": {
+        "size": 0,
+        "soil_characteristics": 0,
+        "location": "location",
+        "irrigation_zones": "zone" }
+    },
+    
+    "cultivation": {
+      "0": {
+        "name": "name",
+        "type": "type",
+        "planting_date": "2021/04/08",
+        "harvest_date": "2021/04/08",
+        "culture_ratio": 0,
+        "cultivation_phase": "planting",
+        "soil_characteristics": 0,
+        "location": "location",
+        "change_date_phase": "2021/04/08" },
+
+        "1": {
+          "name": "name",
+          "type": "type",
+          "planting_date": "2021/04/08",
+          "harvest_date": "2021/04/08",
+          "culture_ratio": 0,
+          "cultivation_phase": "planting",
+          "soil_characteristics": 0,
+          "location": "location",
+          "change_date_phase": "2021/04/08" }
+    },
+
+    "irrigation_plan": {
+      "0": {
+        "datetime_last_irrigation": "2021/04/08 11:50:00",
+        "date_next_irrigation": "2021/04/08",
+        "irrigation_start_date": "2021/04/08",
+        "number_irrigations": 0,
+        "irrigation_duration": "30 minutes" },
+
+      "1": {
+        "datetime_last_irrigation": "2021/04/08 11:50:00",
+        "date_next_irrigation": "2021/04/08",
+        "irrigation_start_date": "2021/04/08",
+        "number_irrigations": 0,
+        "irrigation_duration": "30 minutes" }
+    },
+
+    "irrigation_zones": {
+      "0": {
+        "type_irrigation": "located",
+        "cultivation": "soybean",
+        "irrigation_plan": 0,
+        "height_sea_level": 0 },
+
+      "1": {
+        "type_irrigation": "located",
+        "cultivation": "soybean",
+        "irrigation_plan": 0,
+        "height_sea_level": 0 }
+    }
+}
